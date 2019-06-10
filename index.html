@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Countdown Timer - demo</title>
+  <style>
+    body {
+      padding: 20px
+    }
+
+    code {
+      background-color: #eee;
+      padding: 5px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      text-transform: capitalize;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Countdown Timer - pure javaScript</h1>
+  <p>
+    A simple and html agnostic date countdown pure javaScript
+  </p>
+
+  <h2>How To Use:</h2>
+  <ol>
+    <li>Create a parent element</li>
+    <li>set <code>id="timer"</code></li>
+    <li>set <code>data-hours</code> for the hours counter</li>
+    <li>set <code>data-minutes</code> for the hours counter</li>
+    <li>set <code>data-seconds</code> for the hours counter</li>
+  </ol>
+  <p>
+    <b>Note:</b> if you dont set data-hours, data-minutes, data-seconds by default these set value 0
+  </p>
+
+  <h2>Example:</h2>
+  <h4>html</h4>
+  <div>
+    <code>
+      &lt;div id="timer" data-hours="1" data-minutes="2" data-seconds="3"&gt;&lt;/div&gt;
+    </code>
+    <h4>output</h4>
+    <div id="timer" data-hours="1" data-minutes="2" data-seconds="3"></div>
+  </div>
+
+  <h2>References:</h2>
+  <a href="https://codepen.io/MohssineAboutajWeb/pen/PyBwXY">
+    Original project on Codepen.io
+  </a>
+
+  <script src="dist/countdownMAF.min.js"></script>
+</body>
+
+</html>

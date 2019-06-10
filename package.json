@@ -1,0 +1,22 @@
+{
+  "name": "countdown-timer-pure-javascript",
+  "version": "1.0.0",
+  "description": "A simple and html agnostic date countdown pure javaScript",
+  "scripts": {
+    "build": "babel ./src/countdownMAF.js --out-file ./dist/countdownMAF.min.js"
+  },
+  "keywords": [
+    "countdown",
+    "timer",
+    "pure javascript"
+  ],
+  "author": "Mohssine Aboutaj",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-preset-minify": "^0.5.0"
+  }
+}
