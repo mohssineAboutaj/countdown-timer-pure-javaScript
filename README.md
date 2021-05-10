@@ -1,7 +1,9 @@
 # Countdown Timer - pure javaScript
-A simple and html agnostic date countdown pure javaScript
+
+A simple _HTML_ date countdown pure javaScript
 
 ## How To Use:
+
 1. Create a parent element
 1. set `id="timer"`
 1. set `data-hours` for the hours counter
@@ -9,13 +11,14 @@ A simple and html agnostic date countdown pure javaScript
 1. set `data-seconds` for the hours counter
 
 **Note**
-*if you dont set data-hours, data-minutes, data-seconds by default these set value 0*
+_if you dont set data-hours, data-minutes, data-seconds by default these set value 0_
 
 ## Example:
-``
-&lt;div id="timer" data-hours="1" data-minutes="2" data-seconds="3"&gt;&lt;/div&gt;
-``
+
+```html
+<div id="timer" data-hours="1" data-minutes="2" data-seconds="3"></div>
+```
 
 ## References:
+
 [Original project on Codepen.io](https://codepen.io/MohssineAboutajWeb/pen/PyBwXY).
- 
